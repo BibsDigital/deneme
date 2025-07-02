@@ -139,3 +139,15 @@ Film browsing and streaming
 Push notification integration (with opt-in nudity)
 
 Minimalistic UI/UX
+
+## Local Setup
+
+This repository now includes a minimal Node.js webapp implementing the PRD. To run it locally:
+
+```bash
+npm install
+npm start
+```
+
+Then visit `http://localhost:3000` in your browser.
+

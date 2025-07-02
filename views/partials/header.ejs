@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title><%= title %></title>
+  <link rel="stylesheet" href="/styles.css">
+</head>
+<body>
+  <nav>
+    <% if (user) { %>
+      <span>Welcome, <%= user.email %></span>
+      <a href="/logout">Logout</a>
+    <% } %>
+  </nav>
+  <div class="container">

@@ -1,0 +1,11 @@
+<%- include('partials/header', { title: 'Home', user: user }) %>
+<h1>Featured Films</h1>
+<div class="grid">
+  <% movies.forEach(m => { %>
+    <div class="card">
+      <img src="<%= m.thumbnail %>" alt="<%= m.title %>" width="200" />
+      <h3><a href="/movie/<%= m.id %>"><%= m.title %></a></h3>
+    </div>
+  <% }) %>
+</div>
+<%- include('partials/footer') %>

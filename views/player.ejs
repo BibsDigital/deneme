@@ -1,0 +1,7 @@
+<%- include('partials/header', { title: movie.title, user: user }) %>
+<h1>Watching: <%= movie.title %></h1>
+<video controls width="640">
+  <source src="<%= movie.video %>" type="video/mp4" />
+  Your browser does not support the video tag.
+</video>
+<%- include('partials/footer') %>

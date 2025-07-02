@@ -1,0 +1,20 @@
+[
+  {
+    "id": "1",
+    "title": "Big Buck Bunny",
+    "synopsis": "A comedic short film featuring a giant bunny.",
+    "genre": "Animation",
+    "duration": "10m",
+    "thumbnail": "https://peach.blender.org/wp-content/uploads/title_anouncement.jpg?x11217",
+    "video": "/videos/sample.mp4"
+  },
+  {
+    "id": "2",
+    "title": "Sample Film",
+    "synopsis": "An example movie for demonstration purposes.",
+    "genre": "Drama",
+    "duration": "8m",
+    "thumbnail": "https://dummyimage.com/600x400/000/fff&text=Film+2",
+    "video": "/videos/sample.mp4"
+  }
+]
